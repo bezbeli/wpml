@@ -1,0 +1,19 @@
+{
+    "name": "bezbeli/wpml",
+    "description": "WPML switcher",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bezbeli",
+            "email": "bezbeli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bezbeli\\WPML\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
