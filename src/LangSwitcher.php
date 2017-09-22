@@ -4,6 +4,10 @@ namespace Bezbeli\WPML;
 
 class LangSwitcher
 {
+    // public function __construct() {
+    //     add_filter('wp_nav_menu_items', {$this, 'show', 10, 2);
+    // }
+
     public function show()
     {
         if (function_exists('icl_get_languages')) {
@@ -25,5 +29,4 @@ class LangSwitcher
         return $items;
     }
 
-// add_filter('wp_nav_menu_items', __NAMESPACE__ . '\\lang_dropdown', 10, 2);
 }
